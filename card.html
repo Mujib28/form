@@ -7,68 +7,35 @@
     <link rel="stylesheet" href="../form/card.css">
     <title>Card</title>
   </head>
+
+  <br>
+
   <body>
-    <main class="container">
+    <div>
+      <button type="Add Student">Add Student</button>
+      <input type="text" id="search" placeholder="Search">
+    </div>
+    
+    </body>
+  <body>
+    <form id="form.html">
+    <main class="container" id="card-container">
       <div class="card">
         <div class="card-head">
-          <img src="../man icon.png">
+          <img src="man icon.png">
         </div>
         <div class="card-body">
-          <p>Nama Lengkap : Dicky Rahmat</p>
-          <p>Pekerjaan : Engineering</p>
-          <p>Hobby : Makan</p>
-          <p>Nationality : URUGUAY</p>
-          <p>Biodata : Makan sehat makin gemuk</p>
+          <p id="cardname">Nama Lengkap : Dicky Rahmat</p>
+          <p id="cardpekerjaan">Pekerjaan : Engineering</p>
+          <p id="cardhobby">Hobby : Makan</p>
+          <p id="cardNationality">Nationality : URUGUAY</p>
+          <p id="cardBio">Biodata : Makan sehat makin gemuk</p>
+          <button id="btn-edit" type="submit">Edit</button>
+          <button id="btn-delete" type="submit">Delete</button>  
         </div>
       </div>
-      <div class="card">
-        <div class="card-head">
-          <img src="../man icon.png">
-        </div>
-        <div class="card-body">
-          <p>Nama Lengkap : Suryadi</p>
-          <p>Pekerjaan : Gojek</p>
-          <p>Hobby : Mancing</p>
-          <p>Nationality : INDONESIA</p>
-          <p>Biodata : Mancing bandeng pinggir laut</p>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-head">
-          <img src="../man icon.png">
-        </div>
-        <div class="card-body">
-          <p>Nama Lengkap : Sarjana</p>
-          <p>Pekerjaan : Data Analyst</p>
-          <p>Hobby : Berenang</p>
-          <p>Nationality : JERMAN</p>
-          <p>Biodata : Seorang data analyst harus giat belajar</p>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-head">
-          <img src="../man icon.png">
-        </div>
-        <div class="card-body">
-          <p>Nama Lengkap : Fauzi Bowo</p>
-          <p>Pekerjaan : Arsitec</p>
-          <p>Hobby : Mancing</p>
-          <p>Nationality : POLANDIA</p>
-          <p>Biodata : Arsitec adalah pekerjaan yang saya impikan</p>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-head">
-          <img src="../man icon.png">
-        </div>
-        <div class="card-body">
-          <p>Nama Lengkap : Leo Nardo</p>
-          <p>Pekerjaan : Pegawai Bank</p>
-          <p>Hobby : Tidur</p>
-          <p>Nationality : MONACO</p>
-          <p>Biodata : Pegawai bank memiliki resiko yang tinggi</p>
-        </div>
-      </div>
+
+      <script src="scripts.js"></script>
     </main>
   </body>
 </html>

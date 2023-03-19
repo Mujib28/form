@@ -9,69 +9,40 @@
   </head>
   <body>
     <main>
-      <form action="./card.html">
+      <form id="card" action="card.html">
         <h2>Formulir Pendaftaran</h2>
         <div class="text foto">
           <label for="file">Foto Profil</label><br />
-          <input type="file" name="file" id="file">
+          <input id="ft" type="file" name="file">
         </div>
 
         <div class="text namaLengkap">
           <label for="name">Nama Lengkap</label><br />
-          <input
-            type="text"
-            name="name"
-            id="name"
-            placeholder="Masukan nama anda"
-          />
+          <input id="nm" type="text" name="name" placeholder="Masukan nama anda"/>
         </div>
 
         <div class="text pekerjaan">
           <label for="pekerjaan">Pekerjaan</label><br />
-          <input
-            type="text"
-            name="name"
-            id="pekerjaan"
-            placeholder="Masukan pekerjaan"
-          />
+          <input id="pk" type="text" name="name" placeholder="Masukan pekerjaan"/>
         </div>
 
-        <div class="text">
-          <p>Hobby</p>
-          <input type="checkbox" name="hobby" id="hobby">
-          <label for="hobby">Mancing</label>
-          <input type="checkbox" name="hobby" id="Makan">
-          <label for="Makan">Makan</label>
-          <input type="checkbox" name="hobby" id="Berenang">
-          <label for="Berenang">Berenang</label>
-          <input type="checkbox" name="hobby" id="Tidur">
-          <label for="Tidur">Tidur</label>
+        <div class="text Hobby">
+          <label for="Hobby">Hobby</label><br />
+          <input id="hb" type="text" name="name" placeholder="Masukan Hobby"/>
         </div>
 
-        <div class="text">
-          <label for="nationality">Nationality</label>
-          <select name="nationality" id="nationality">
-            <option value="">-------</option>
-            <option value="">INDONESIA</option>
-            <option value="">JERMAN</option>
-            <option value="">POLANDIA</option>
-            <option value="">URUGUAY</option>
-            <option value="">MONACO</option>
-          </select>
+        <div class="text Nationality">
+          <label for="nationality">Nationality</label><br />
+          <input id="nt" type="text" name="name" placeholder="Masukan Nationality"/>
         </div>
 
         <div class="text">
           <label for="bio">Biodata</label><br />
-          <textarea
-            name="bio"
-            id="bio"
-            cols="25"
-            rows="0"
-            placeholder="Masukan biodata"
+          <textarea id="bio" name="bio" cols="25" rows="0" placeholder="Masukan biodata"
           ></textarea>
         </div>
 
-        <button type="submit">Submit</button>
+        <button id="btn-sub" type="submit">Submit</button>
       </form>
     </main>
   </body>
